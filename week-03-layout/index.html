@@ -1,20 +1,152 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Home</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-  </head>
-  <body>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="#about">About</a>
-      <a href="#products">Products</a>
-    </nav>
-    <div>
-      Replace the content in this file to create your business's homepage.
+<head>
+<style>
+{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: League Gothic;
+  padding: 10px;
+   background: #E6E5E5;
+}
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #99A999;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #E6E5E5;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.img {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background: #99A999;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #99A999;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Green Power</h1>
+  <p>The future is here and it's green!</p>
+</div>
+
+<div class="topnav">
+  <a href="#">Home</a>
+  <a href="#"><u>What's New?</u></a>
+  <a href="#">Resources</a>
+  <a href="#">About</a>
+<a href="#" style="float:right">Check out Green Power merch!</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+  
+<div class="card">
+      <h2>Enzymes and Plastic, Oh My!</h2>
+  <h5><a href="https://www.youtube.com/watch?v=oNkk3JPYd6s">Seeker: Elements Season 4 / Episode 156</a></h5>
+  <img src="https://mymodernmet.com/wp/wp-content/uploads/2018/05/plastic-eating-enzyme.jpg" alt="plastic eating enzyme" width="460" height="300"> <p>A new strand of mutant super enzyme may be the revolutionary look into cleaner recycling than ever before!</p>
+      </div>
+
+<div class="card">
+      <h2>Green Future: <i>Aloe E-Cell</i> the first eco-friendly plant battery wins #NationalStartupAwards 2020</h2>  
+<h5><a href="https://www.brightvibes.com/2363/en/the-worlds-first-100-eco-friendly-battery-is-made-from-a-plant">brightvibes.com</a></h5>
+      <img src="https://www.brightvibes.com/images/phpzzuR5b.jpeg" alt="aloe e-cell" style="height:200px;"></img scr>
+     <p>Eco friendly and non hazardous batteries using Aloe Vera - 100% made in India. Points towards a greener world for now and the future of pocket sized powerhouses!</p>
     </div>
-    <footer>
-      Thanks for visiting my business!
-    </footer>
-  </body>
+
+<div class="card">
+      <h2>About <i>Green Power:</i></h2>
+     <img src="https://www.publicdomainpictures.net/pictures/50000/velka/a-pine-tree-in-a-field-1369129400u8Q.jpg" alt="tree in field" width="350" height="320">
+      <p>Our mission is aiming to inform, inspire, and change how we view the world one link at a time. To create is to give back to the earth; Using 100% recyclable materials and reduce carbon emissions with our comfy, and satifaction-guareentee t-shirts, hoodies, and more. Each purchase gives 45% to the development of environmentally friendly technology and foundations of your choosing.</p>
+    </div>
+    
+    <div class="card">
+      <h3>Popular Post</h3>
+      <p><img src="https://static2.srcdn.com/wordpress/wp-content/uploads/2020/03/ecosia-logo.jpg?q=50&fit=crop&w=400&h=200&dpr=1.5" alt="Ecosia"><p>Plant a tree one search bar away, every time: Download <b><u>Ecosia</u></b> today!</p></img scr>
+    </div>
+    
+   </div>
+  </div>
+
+<div class="footer">
+  <h2>Here's to a brighter, greener future</h2>
+</div>
+
+</body>
 </html>
