@@ -34,6 +34,23 @@ if(answerTwo == 'green') {
 }
 }
 
+function submitAnswerThree() {
+
+  const answerTwoInput = document.getElementById('answer-three-input');
+
+  const answerTwo = answerThreeInput.value;
+
+  if(answerTwo == 'green') {
+    alert("That is right! Mirrors use float glass, which are green once they reflect light onto another mirror!");
+    hide('question-two');
+    show('done');
+  } else if(answerTwo == 'red') {
+    alert('The answer is a complimentary color of red.');
+  } else {
+    alert('The answer is a color yellow and blue combined.')
+  }
+}
+
 function show(id) {
   const element = document.getElementById(id);
   element.style.display = 'block';
