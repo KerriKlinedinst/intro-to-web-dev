@@ -1,5 +1,17 @@
 #question-two {
-  display: none;
+  display: contents;
+}
+
+#question-three {
+display: contents;
+}
+
+#question-four {
+Display: contents;
+}
+
+#question-five {
+display: none;
 }
 
 #done {
