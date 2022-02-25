@@ -24,7 +24,7 @@ function submitAnswerTwo() {
   const answerTwo = answerTwoInput.value;
 
 if(answerTwo == 'green') {
-  alert("That is right! Mirrors use float glass, which are green once they reflect light onto another mirror!");
+  alert('That is right! Mirrors use float glass, which are green once they reflect light onto another mirror!');
   hide('question-two');
   show('done');
 } else if(answerTwo == 'red') {
