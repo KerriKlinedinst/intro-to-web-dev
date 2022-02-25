@@ -31,7 +31,7 @@ if(answerTwo == 'green') {
   alert('The answer is a complimentary color of red.');
 } else {
   alert('The answer is a color yellow and blue combined.')
-}
+ }
 }
 
 function submitAnswerThree() {
@@ -48,7 +48,7 @@ function submitAnswerThree() {
     alert('Almost, the answer is the upcoming month.');
   } else {
     alert('Not quite. The answer is the upcoming month')
-  }
+   }
   }
 
 
@@ -66,7 +66,7 @@ show('done')
   alert('Just about. This monster loves cookies!');
 } else {
   alert('Not quite. The answer is a blue monster loves to eat what baked goods?')
-}
+ }
 }
 
 function submitAnswerFive() {
@@ -83,7 +83,7 @@ show('done')
   alert('Almost. The answer is a name that starts with C with seven letters total');
 } else {
   alert('Not quite, he answer is a name that starts with C and ends with lie')
-}
+ }
 }
 
 
