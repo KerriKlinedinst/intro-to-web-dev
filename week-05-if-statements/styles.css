@@ -1,23 +1,7 @@
-#question-one {
-  display: contents;
-}
-
 #question-two {
-  display: contents;
-}
-
-#question-three {
-  display: contents;
-}
-
-#question-four {
-  display: contents;
-}
-
-#question-five {
-  display: contents;
+  display: none;
 }
 
 #done {
-  display: contents;
+  display: none;
 }
