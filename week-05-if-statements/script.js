@@ -36,20 +36,56 @@ if(answerTwo == 'green') {
 
 function submitAnswerThree() {
 
-  const answerTwoInput = document.getElementById('answer-three-input');
+  const answerThreeInput = document.getElementById('answer-three-input');
 
-  const answerTwo = answerThreeInput.value;
+  const answerThree = answerThreeInput.value;
 
-  if(answerTwo == 'green') {
-    alert("That is right! Mirrors use float glass, which are green once they reflect light onto another mirror!");
-    hide('question-two');
-    show('done');
-  } else if(answerTwo == 'red') {
-    alert('The answer is a complimentary color of red.');
+  if (answerThree == 'March')
+  alert('Right! March 20th is the first day of spring in 2022.' )
+  hide('question-three')
+  show('done')
+  } else if(answerThree == 'Feburary') {
+    alert('Almost, the answer is the upcoming month.');
   } else {
-    alert('The answer is a color yellow and blue combined.')
+    alert('Not quite. The answer is the upcoming month')
   }
+  }
+
+
+  function submitAnswerFour() {
+
+  const answerFourInput = document.getElementById('answer-four-input');
+
+  const answerFour = answerFourInput.value;
+
+if (answerFour == 'Cookie Monster')
+alert('Correct! A Cookie Monster geode was incovered in the Rio Grande do Sul region of Brazil. It costs up to $100,000!')
+hide('question-four')
+show('done')
+} else if(answerFour == 'Elmo') {
+  alert('Just about. This monster loves cookies!');
+} else {
+  alert('Not quite. The answer is a blue monster loves to eat what baked goods?')
 }
+}
+
+function submitAnswerFive() {
+
+const answerFiveInput = document.getElementById('answer-five-input');
+
+const answerFive = answerFiveInput.value;
+
+if (answerFive == 'Charlie')
+alert('Correct! Charlie is beagel-mixed, and has been a part of his fur-ever home since 2015.')
+hide('question-five')
+show('done')
+} else if(answerFive == 'Charles') {
+  alert('Almost. The answer is a name that starts with C with seven letters total');
+} else {
+  alert('Not quite, he answer is a name that starts with C and ends with lie')
+}
+}
+
 
 function show(id) {
   const element = document.getElementById(id);
