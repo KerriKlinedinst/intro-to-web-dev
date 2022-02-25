@@ -7,7 +7,7 @@ function submitAnswerOne() {
   const answerOne = answerOneInput.value;
 
   if(answerOne == 'bellbird') {
-    alert("That's right! The Bellbird, specifically the White Bellbird has the loudest call that can get up to 116 decibels!");
+    alert('That's right! The Bellbird, specifically the White Bellbird has the loudest call that can get up to 116 decibels!');
     hide('question-one');
     show('question-two');
   } else if(answerOne == 'eagle') {
@@ -24,7 +24,7 @@ function submitAnswerTwo() {
   const answerTwo = answerTwoInput.value;
 
 if(answerTwo == 'green') {
-  alert("That is right! Mirrors use float glass, which are green once they reflect light onto another mirror!");
+  alert('That is right! Mirrors use float glass, which are green once they reflect light onto another mirror!');
   hide('question-two');
   show('done');
 } else if(answerTwo == 'red') {
