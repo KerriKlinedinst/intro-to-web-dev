@@ -7,7 +7,7 @@ function submitAnswerOne() {
   const answerOne = answerOneInput.value;
 
   if(answerOne == 'bellbird') {
-    alert("That's right! The Bellbird, specifically the White Bellbird has the loudest call that can get up to 116 decibels!");
+    alert('That is right! The Bellbird, specifically the White Bellbird has the loudest call that can get up to 116 decibels!'');
     hide('question-one');
     show('question-two');
   } else if(answerOne == 'eagle') {
