@@ -17,6 +17,12 @@ function submitAnswerOne() {
   }
 }
 
+function submitAnswerTwo() {
+  // Get answer two's input element
+  const answerTwoInput = document.getElementById('answer-two-input');
+  // Get the number from answer two's input element
+  const answerTwo = answerTwoInput.value;
+
 if(answerTwo == 'green') {
   alert("That is right! Mirrors use float glass, which are green once they reflect light onto another mirror!");
   hide('question-two');
@@ -27,8 +33,6 @@ if(answerTwo == 'green') {
   alert('The answer is a color yellow and blue combined.')
 }
 }
-
-
 
 function show(id) {
   const element = document.getElementById(id);
