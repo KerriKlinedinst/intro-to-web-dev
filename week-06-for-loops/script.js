@@ -10,7 +10,7 @@ Whatever life he lives, it will be his. And that was all he needed to know. It w
 // speech contains other punctuation.
 const speechPunctuationRemoved = speech.replace(',', '').replace('.', '');
 const speechPunctuationRemoved = speech.replace('?', '').replace('!', '')
-const speechPunctuationRemoved = speech.replace(',', '').replace(''' '')
+
 const wordsArray = speechPunctuationRemoved.split(/\s+/);
 
 
