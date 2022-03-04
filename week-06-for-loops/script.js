@@ -1,12 +1,6 @@
 // Replace this speeh with your own.
 // Notice the `` backticks, which let you split your string into multiple lines.
-const speech = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-    est laborum.`;
+const speech = ``You see? The Line™ knows where the story is, it's over in this direction! Onwards, Stanley, to destiny!``;
 
 // Remove punctuation from the speech. You might have to modify this if your
 // speech contains other punctuation.
@@ -32,8 +26,6 @@ function displayLongWords() {
     }
   }
 }
-
-// TODO: Define your own functions here!
 
 function displaySpeechStats() {
   document.getElementById('speech').innerText = speech;
