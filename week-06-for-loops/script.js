@@ -6,7 +6,6 @@ What other mysteries did this strange building hold? But, as sunlight streamed i
 
 
 const speechPunctuationRemoved = speech.replace(',', '').replace('.', '');
-const speechPunctuationRemoved = speech.replace('?', '').replace('!', '')
 
 const wordsArray = speechPunctuationRemoved.split(/\s+/);
 
