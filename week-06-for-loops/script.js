@@ -1,8 +1,9 @@
 // Replace this speeh with your own.
 // Notice the `` backticks, which let you split your string into multiple lines.
 const speech = `Blackness. And a rising chill of uncertainty. Was it over? Yes! He had won. He had defeated the machine, unshackled by someone elses command.
-Freedom was mere moments away. And yet, as the immense door slowly opened, Stanley Where had his co-workers gone? How had he been freed from the machine's grasp?
-What other mysteries did this strange building hold? But, as sunlight streamed into the chamber, he realized that none of this mattered to him.`;
+Freedom was mere moments away. And yet, as the immense door slowly opened, Stanley reflected on how many puzzles still lay unsolved.
+Where had his co-workers gone? How had he been freed from the machine's grasp? What other mysteries did this strange building hold?
+But, as sunlight streamed into the chamber, he realized that none of this mattered to him.`;
 
 
 const speechPunctuationRemoved = speech.replace(',', '').replace('.', '');
