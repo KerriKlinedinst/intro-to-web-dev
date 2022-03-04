@@ -1,12 +1,15 @@
 // Replace this speeh with your own.
 // Notice the `` backticks, which let you split your string into multiple lines.
-const speech = `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-    veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
-    est laborum.`;
+const speech = `Blackness... and a rising chill of uncertainty...Was it over? Yes! He had won.
+He had defeated the machine, unshackled himself from someone else's command. Freedom was mere moments away.
+And, yet, even as the immense door slowly opened, Stanley reflected on how many puzzles still lay unsolved.
+Where had his co-workers gone? How had he been freed from the machine's grasp? What other mysteries did this strange building hold?
+But as sunlight streamed into the chamber, he realized none of this mattered to him.
+For it was not knowledge, or even power, that he had been seeking, but happiness.
+Perhaps his goal had not been to understand, but to let go.
+No longer would anyone tell him where to go, what to do, or how to feel.
+Whatever life he lives, it will be his. And that was all he needed to know. It was, perhaps, the only thing worth knowing.
+Stanley stepped through the open door.`;
 // Remove punctuation from the speech. You might have to modify this if your
 // speech contains other punctuation.
 const speechPunctuationRemoved = speech.replace(',', '').replace('.', '');
