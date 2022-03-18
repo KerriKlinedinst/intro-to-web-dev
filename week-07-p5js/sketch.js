@@ -1,7 +1,7 @@
 let img;
 
 function setup() {
-  createCanvas(600, 600);
+  createCanvas(300, 300);
   img = loadImage('IMG_1603.jpeg');
 }
 
