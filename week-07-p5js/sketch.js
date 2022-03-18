@@ -10,3 +10,14 @@ for (let lineX = 75; lineX <= 225; lineX += 75){
 line(lineX, 0, lineX, height);
 }
 }
+
+let img;
+
+function setup() {
+  createCanvas(300, 300);
+  img = loadImage('IMG_1603.jpeg');
+}
+
+function draw() {
+  image(img, 0, 0);
+}
