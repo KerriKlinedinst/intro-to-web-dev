@@ -4,7 +4,6 @@ function setup() {
 
 function draw() {
   background(600);
-  circle(200, 200, 300);
   stroke(255);
 
   for (let lineX= 75; lineX <= 225; lineX += 75){
