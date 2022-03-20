@@ -1,10 +1,9 @@
 function setup() {
   createCanvas(300, 300);
-  background(200);
-
-  // Set colors
-   fill(204, 101, 192, 127);
-   stroke(127, 63, 120);
+function draw() {
+  background(100);
+  stroke(255);
+}
 
 // simple flower design
 translate(580, 200);
