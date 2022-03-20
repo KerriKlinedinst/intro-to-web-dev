@@ -3,15 +3,15 @@
 }
 
 #question-three {
-display: contents; 
+display: none; 
 }
 
 #question-four {
-display: contents;
+display: none;
  }
 
 #question-five {
-display: function; 
+display: none; 
 }
 
 #done {
