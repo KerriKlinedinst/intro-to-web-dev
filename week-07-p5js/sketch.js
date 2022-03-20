@@ -1,10 +1,6 @@
 function setup() {
   createCanvas(300, 300);
-}
-
-function draw() {
-  background(100);
-  stroke(255);
+  background(200);
 
   // Set colors
    fill(204, 101, 192, 127);
