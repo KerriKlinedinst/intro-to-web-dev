@@ -9,4 +9,7 @@ function draw() {
   for (let lineX = 75; lineX <= 225; lineX += 75) {
     line(lineX, 0, lineX, height);
   }
+  for (let lineX = 75; lineX <= 225; lineX += 75) {
+    line(lineX, 0, lineX, height);
+}
 }
