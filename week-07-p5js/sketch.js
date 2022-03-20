@@ -6,10 +6,11 @@ function draw() {
   background(100);
   stroke(255);
 
-  for (let lineX = 75; lineX <= 225; lineX += 75) {
-    line(lineX, 0, lineX, height);
-  }
-  for (let lineX = 75; lineX <= 225; lineX += 75) {
-    line(lineX, 0, lineX, height);
+// simple flower design
+translate(580, 200);
+noStroke();
+for (let i = 0; i < 10; i ++) {
+ellispe(0, 30, 20, 80);
+rotate(PI/5);
 }
 }
