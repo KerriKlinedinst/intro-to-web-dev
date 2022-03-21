@@ -39,14 +39,14 @@ class Particle {
 let particles = [];
 
 function setup() {
-  createCanvas(500, 400);
+  createCanvas(500, 500);
   for(let i = 0;i<width/10;i++){
     particles.push(new Particle());
   }
 }
 
 function draw() {
-  background('rgb(216,228,188)');
+  background('rgb(152,105,96)');
   for(let i = 0;i<particles.length;i++) {
     particles[i].createParticle();
     particles[i].moveParticle();
