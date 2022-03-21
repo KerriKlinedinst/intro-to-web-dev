@@ -13,7 +13,7 @@ class Particle {
   createParticle() {
     noStroke();
     fill('rgb(255,105,180)');
-    triangle(this.x,this.y,this.r);
+    star(this.x,this.y,this.r);
   }
 
   moveParticle() {
@@ -46,7 +46,7 @@ function setup() {
 }
 
 function draw() {
-  background('rgb(152,105,96)');
+  background('rgb(250,214,165)');
   for(let i = 0;i<particles.length;i++) {
     particles[i].createParticle();
     particles[i].moveParticle();
