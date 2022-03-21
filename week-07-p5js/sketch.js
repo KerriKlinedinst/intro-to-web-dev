@@ -12,5 +12,12 @@ stroke(127, 63, 120);
  for (let i = 0; i < 10; i ++) {
    ellipse(0, 30, 20, 40);
    rotate(PI/5);
+
+   translate(200, 200);
+   noStroke();
+   for (let i = 0; i < 9; i ++) {
+     ellipse(0, 30, 20, 40);
+     rotate(PI/5);
+   }
  }
 }
