@@ -1,6 +1,6 @@
 function setup() {
   createCanvas(300, 300);
-backgroundColor.setGreen(128 + 128 * sin(millis() / 1000));
+background (128, 128);
 
   // colors
 fill(204, 101, 192, 127);
