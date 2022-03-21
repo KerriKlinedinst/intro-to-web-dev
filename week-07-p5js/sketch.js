@@ -3,15 +3,25 @@ class Particle {
   constructor(){
     this.x = random(0, width);
     this.y = random(0, height);
-  this.r - random(1,10);
-  this.xSpeed = random(-2,2);
-  this.ySpeed = random(-2,2.5);
+    this.r = random(1,8);
+       this.xSpeed = random(-2,2);
+       this.ySpeed = random(-1,1.5);
+}
+joinParticles(particles) {
+  particles.forEach(element =>{
+    let dis = dist(this.x,this.y,element.x,element.y);
+    if(dis<85) {
+      stroke('rgba(255,255,255,0.04)');
+      line(this.x,this.y,element.x,element.y);
+    }
+  });
+}
 }
 
 createParticles() {
   noStroke();
-  fill(204, 101, 192, 127);
-  ellispe(this.x,this.y,this.r);
+  fill('rgba(200,169,169,0.5)');
+  triangles(this.x,this.y,this.r);
 }
 moveParticles() {
   if(this.x < 0 || this.x > width)
