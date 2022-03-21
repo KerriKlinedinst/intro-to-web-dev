@@ -13,5 +13,15 @@ stroke(127, 63, 120);
    ellipse(0, 30, 20, 40);
    rotate(PI/5);
 
+   //mouse
+   function mousePressed() {
+  if (over) {
+    move = true;
+  }
+}
+
+function mouseReleased() {
+  move = false;
+
    }
 }
