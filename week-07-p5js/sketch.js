@@ -14,8 +14,6 @@ joinParticles(particles) {
       stroke('rgba(255,255,255,0.04)');
       line(this.x,this.y,element.x,element.y);
     }
-  });
-}
 }
 
 createParticles() {
