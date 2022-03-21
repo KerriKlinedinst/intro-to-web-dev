@@ -13,10 +13,10 @@ stroke(127, 63, 120);
    ellipse(0, 30, 20, 40);
    rotate(PI/5);
 
-   let xpos, ypos; // Starting position of shape
+   let xpos, ypos; // Starting position
 
-   let xspeed = 2.8; // Speed of the shape
-   let yspeed = 2.2; // Speed of the shape
+   let xspeed = 3.0; // Speed
+   let yspeed = 2.8; 
 
    let xdirection = 1; // Left or Right
    let ydirection = 1; // Top to Bottom
