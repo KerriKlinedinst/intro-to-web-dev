@@ -13,7 +13,7 @@ class Particle {
   createParticle() {
     noStroke();
     fill('rgb(255,105,180)');
-    star(this.x,this.y,this.r);
+    triangle(this.x,this.y,this.r);
   }
 
   moveParticle() {
