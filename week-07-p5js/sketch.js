@@ -3,8 +3,6 @@ function setup() {
 function draw() {
   background(100);
   stroke(255);
-}
-
 // simple flower design
 translate(580, 200);
 noStroke();
