@@ -1,9 +1,16 @@
 // Array of objects representing a todo list.
 // Modify this array to contain your own list.
 const taskArray = [
-  {label: 'Water plants', time: 3},
-  {label: 'Homework', time: 2},
-  {label: 'Laundry', time: 1},
+  {label: 'Food Editors Favorites: Treasured Reciepes - Barbara Gibbs Ostmann & Jane Baker', length: 160},
+  {label: 'Magnificient Obssession - Lloyd C. Douglas', length: 330},
+  {label: "Reader's Digest Condensed Books: Number 2. 1960", time: 1},
+  {label: },
+  {label: },
+  {label: },
+  {label: },
+  {label: },
+  {label: },
+  {label: },
 ];
 
 // Loads the content into the page.
