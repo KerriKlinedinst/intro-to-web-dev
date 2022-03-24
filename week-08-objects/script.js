@@ -1,8 +1,8 @@
 // Array of objects representing a todo list.
 // Modify this array to contain your own list.
 const taskArray = [
-  {label: 'Food Editors Favorites: Treasured Reciepes - Barbara Gibbs Ostmann & Jane Baker', length: 160},
-  {label: 'Magnificient Obssession - Lloyd C. Douglas', length: 330},
+  {label: 'Food Editors Favorites: Treasured Reciepes - Barbara Gibbs Ostmann & Jane Baker', time: 160},
+  {label: 'Magnificient Obssession - Lloyd C. Douglas', time: 330},
   {label: "Reader's Digest Condensed Books: Number 2. 1960", time: 1},
   {label: },
   {label: },
