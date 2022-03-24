@@ -3,14 +3,8 @@
 const taskArray = [
   {label: 'Food Editors Favorites: Treasured Reciepes - Barbara Gibbs Ostmann & Jane Baker', time: 160},
   {label: 'Magnificient Obssession - Lloyd C. Douglas', time: 330},
-  {label: "Reader's Digest Condensed Books: Number 2. 1960", time: 1},
-  {label: },
-  {label: },
-  {label: },
-  {label: },
-  {label: },
-  {label: },
-  {label: },
+  {label: "Reader's Digest Condensed Books: Number 2. 1960", time: 575},
+  {label: 'Raintree County - Ross Lockridge Jr.', time: 1066},
 ];
 
 // Loads the content into the page.
