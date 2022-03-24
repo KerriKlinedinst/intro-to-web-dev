@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Task List</title>
+    <title>My Book Collection</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script src="script.js"></script>
   </head>
   <body onload="loadContent();">
-    <h1>Task List</h1>
+    <h1>Book Collection</h1>
     <div id="table-container"></div>
     <hr>
-    <p>Shortest task: <span id="shortest-task"></span></p>
+    <p>Shortest page length: <span id="shortest-page-length"></span></p>
     <hr>
     <div>
-      <h1>New Task</h1>
+      <h1>New Book</h1>
       Label: <input type="text" id="label-input"/>
       <br><br>
-      Time: <input type="number" id="time-input" />
+      Length: <input type="number" id="time-input" />
       <br><br>
       <button onclick="addNewTask();">Add</button>
     </div>
