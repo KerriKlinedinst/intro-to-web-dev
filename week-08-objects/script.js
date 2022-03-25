@@ -69,10 +69,10 @@ function loadShortestTask(){
     const task = taskArray[i];
     // If this task is shorter than the previous shortest, it's now the shortest
     if(task.time < shortestTask.time) {
-      shortestTask = task;
+      shortestTask = time;
     }
   }
-  document.getElementById('shortest-task').innerText = shortesttask.label;
+  document.getElementById('shortest-task').innerText = pages.label;
 }
 
 // Helper function that creates an element that contains text content.
