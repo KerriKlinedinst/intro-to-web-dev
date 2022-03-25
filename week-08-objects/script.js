@@ -28,8 +28,8 @@ function loadContent() {
 function addNewTask() {
   const newTaskLabel = document.getElementById('label-input').value;
   const newTaskTime = document.getElementById('time-input').value;
-  const newTask = {label: newTaskLabel, time: newTaskTime };
-  taskArray.push(newTask);
+  const newTask = {label: newBook, time: newTitleandAuthor };
+  taskArray.push(newPage);
 
   loadContent();
 }
@@ -93,6 +93,44 @@ function compare(valueOne, valueTwo) {
 
   // valueOne comes after valueTwo
   if (valueOne > valueTwo) {
+    return 1;
+  }
+
+  // valueOne and valueTwo are equal
+  return 0;
+}
+
+// Displays the name of the shortest task.
+function loadLongestTask(){
+  // Assume the first task is shortest
+  let longestTask = taskArray[0];
+
+  // Starting with the second task, look for a shorter task
+  for (let i = 1; i < taskArray.length; i++) {
+    const task = taskArray[i];
+    // If this task is shorter than the previous shortest, it's now the shortest
+    if(task.time > longestTask.time) {
+      longestTask = task;
+    }
+  }
+  document.getElementById('longest-task').innerText = longestTask.label;
+}
+
+// Helper function that creates an element that contains text content.
+function createElement(tag, text) {
+  const element = document.createElement(tag);
+  element.innerText = text;
+  return element;
+
+}
+
+function compare(valueOne, valueTwo) {
+
+  if (valueOne < valueTwo) {
+    return 1;
+  }
+
+  if (valueOne < valueTwo) {
     return 1;
   }
 
