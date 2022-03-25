@@ -1,7 +1,7 @@
 // Array of objects representing a todo list.
 // Modify this array to contain your own list.
 const taskArray = [
-  {label: 'Food Editors Favorites: Treasured Reciepes - Barbara Gibbs Ostmann & Jane Baker', pages: 160},
+  {label: 'Food Editors Favorites: Treasured Reciepes - Barbara Gibbs Ostmann & Jane Baker', time: 160},
   {label: 'Magnificient Obssession - Lloyd C. Douglas', time: 330},
   {label: "Reader's Digest Condensed Books: Number 2. 1960", time: 575},
   {label: 'Raintree County - Ross Lockridge Jr.', time: 1066},
@@ -39,9 +39,9 @@ function loadTable() {
 
   // Create a header row.
   const headerRowElement = document.createElement('tr');
-  headerRowElement.appendChild(createElement('th', 'Index'));
-  headerRowElement.appendChild(createElement('th', 'Label'));
-  headerRowElement.appendChild(createElement('th', 'Time'));
+  headerRowElement.appendChild(createElement('th', 'Book'));
+  headerRowElement.appendChild(createElement('th', 'Title and Author'));
+  headerRowElement.appendChild(createElement('th', 'Pages'));
   tableElement.appendChild(headerRowElement);
 
   // Iterate over the array and create a table row for each object.
@@ -68,11 +68,11 @@ function loadShortestTask(){
   for (let i = 1; i < taskArray.length; i++) {
     const task = taskArray[i];
     // If this task is shorter than the previous shortest, it's now the shortest
-    if(task.time < shortestpage.time) {
-      shortestpage = page;
+    if(task.time < shortestTask.time) {
+      shortestTask = task;
     }
   }
-  document.getElementById('shortest-page').innerText = shortestpage.label;
+  document.getElementById('shortest-task').innerText = shortesttask.label;
 }
 
 // Helper function that creates an element that contains text content.
