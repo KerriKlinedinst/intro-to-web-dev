@@ -9,7 +9,7 @@ const taskArray = [
   {label: 'Deep Down Dark - Hector Tobar', time: 309},
   {label: 'The Invertebrates: Volume VI Mollusca I - Libbie H. Hyman', time: 792},
   {label: 'We, The Drowned - Carsten Jensen', time: 678},
-  {label: 'A Tale for the TIme Being - Ruth Ozeki', time: 422},
+  {label: 'A Tale for the Time Being - Ruth Ozeki', time: 422},
   {label: 'The Urantia Book - Author Unknown', time: 2097},
 ];
 
