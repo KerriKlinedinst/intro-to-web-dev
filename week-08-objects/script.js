@@ -45,7 +45,7 @@ function loadTable() {
   tableElement.appendChild(headerRowElement);
 
   // Iterate over the array and create a table row for each object.
-  for (let i = 1; i < taskArray.length; i++) {
+  for (let i = 0; i < taskArray.length; i++) {
     const task = taskArray[i];
     const rowElement = document.createElement('tr');
     rowElement.appendChild(createElement('td', i));
@@ -62,17 +62,17 @@ function loadTable() {
 // Displays the name of the shortest task.
 function loadShortestTask(){
   // Assume the first task is shortest
-  let shortestTask = taskArray[1];
+  let shortestTask = taskArray[0];
 
   // Starting with the second task, look for a shorter task
   for (let i = 1; i < taskArray.length; i++) {
     const task = taskArray[i];
     // If this task is shorter than the previous shortest, it's now the shortest
     if(task.time < shortestTask.time) {
-      shortestTask = time;
+      shortestTask = task;
     }
   }
-  document.getElementById('shortest-task').innerText = pages.label;
+  document.getElementById('shortest-task').innerText = shortestTask.label;
 }
 
 // Helper function that creates an element that contains text content.
