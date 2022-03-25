@@ -158,4 +158,3 @@ class Avg {
 
 var arry = [160, 309, 330, 362, 422, 575, 678, 792, 1066, 2097];
 console.log(Avg.average(arry));
-}
