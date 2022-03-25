@@ -6,16 +6,19 @@
     <script src="script.js"></script>
   </head>
   <body onload="loadContent();">
-    <h1>My Book Collection</h1>
+    <h1>Book Collection</h1>
     <div id="table-container"></div>
     <hr>
-    <p>Shortest page length: <span id="shortest-task"></span></p>
+    <p>Shortest book: <span id="shortest-task"></span></p>
     <hr>
     <div>
-      <h1>New Book</h1>
-      Title and Author: <input type="text" id="label-input"/>
+      <p> Longest book: <span id="longest-task"></span></p>
+      <hr>
+      <div>
+      <h1>New Task</h1>
+      Label: <input type="text" id="label-input"/>
       <br><br>
-      Pages: <input type="number" id="page-input" />
+      Time: <input type="number" id="time-input" />
       <br><br>
       <button onclick="addNewTask();">Add</button>
     </div>
