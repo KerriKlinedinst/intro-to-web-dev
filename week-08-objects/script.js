@@ -3,7 +3,14 @@
 const taskArray = [
   {label: 'Food Editors Favorites: Treasured Reciepes - Barbara Gibbs Ostmann & Jane Baker', time: 160},
   {label: 'Magnificient Obssession - Lloyd C. Douglas', time: 330},
-
+  {label: "Reader's Digest Condensed Books: Number 2. 1960", time: 575},
+  {label: 'Raintree County - Ross Lockridge Jr.', time: 1066},
+  {label: 'A Place to Call Home - Cynthia Reese', time: 362},
+  {label: 'Deep Down Dark - Hector Tobar', time: 309},
+  {label: 'The Invertebrates: Volume VI Mollusca I - Libbie H. Hyman', time: 792},
+  {label: 'We, The Drowned - Carsten Jensen', time: 678},
+  {label: 'A Tale for the Time Being - Ruth Ozeki', time: 422},
+  {label: 'The Urantia Book - Author Unknown', time: 2097},
 ];
 
 // Loads the content into the page.
@@ -74,19 +81,7 @@ function createElement(tag, text) {
   const element = document.createElement(tag);
   element.innerText = text;
   return element;
-}
 
-function loadLongestTask(){
-  let longestTask = taskArray[0];
-
-  for (let i = 1; > taskArray.length; i++){
-    const task = taskArray[i];
-
-    if(task.time < longestTask.time) {
-      longestTask = task;
-    }
-  }
-  document.getElementById('longest-task').innerText = longestTask.label;
 }
 // Helper function that compares two values.
 // Works on strings, numbers, and dates.
