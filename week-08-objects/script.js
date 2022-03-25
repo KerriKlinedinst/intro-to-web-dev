@@ -92,7 +92,7 @@ function compare(valueOne, valueTwo) {
 
   // valueOne comes after valueTwo
   if (valueOne > valueTwo) {
-    return 0;
+    return 1;
   }
 
   // valueOne and valueTwo are equal
