@@ -62,7 +62,7 @@ function loadTable() {
 // Displays the name of the shortest task.
 function loadShortestTask(){
   // Assume the first task is shortest
-  let shortestTask = taskArray[1];
+  let shortestTask = taskArray[0];
 
   // Starting with the second task, look for a shorter task
   for (let i = 1; i < taskArray.length; i++) {
