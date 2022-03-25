@@ -21,6 +21,7 @@ function loadContent() {
 
   loadTable();
   loadShortestTask();
+  loadLongestTask();
 }
 
 // Adds a task to the array and reloads the page content.
@@ -39,7 +40,7 @@ function loadTable() {
 
   // Create a header row.
   const headerRowElement = document.createElement('tr');
-  headerRowElement.appendChild(createElement('th', 'Book'));
+  headerRowElement.appendChild(createElement('th', 'Books'));
   headerRowElement.appendChild(createElement('th', 'Title and Author'));
   headerRowElement.appendChild(createElement('th', 'Pages'));
   tableElement.appendChild(headerRowElement);
@@ -82,6 +83,18 @@ function createElement(tag, text) {
   return element;
 }
 
+function loadLongestTask(){
+  let longestTask = taskArray[0];
+
+  for (let i = 1; > taskArray.length; i++){
+    const task = taskArray[i];
+
+    if(task.time < longestTask.time) {
+      longestTask = task;
+    }
+  }
+  document.getElementById('longest-task').innerText = longestTask.label;
+}
 // Helper function that compares two values.
 // Works on strings, numbers, and dates.
 function compare(valueOne, valueTwo) {
