@@ -29,7 +29,7 @@ function loadContent() {
 function addNewTask() {
   const newTaskLabel = document.getElementById('label-input').value;
   const newTaskTime = document.getElementById('time-input').value;
-  const newTask = {label: newBook, time: newTitleandAuthor };
+  const newTask = {label: newTask, time: newTaskTime };
   taskArray.push(newPage);
 
   loadContent();
