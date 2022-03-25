@@ -118,10 +118,11 @@ function loadLongestTask(){
 }
 
 // Helper function that creates an element that contains text content.
-function createElement(tag, text) {
-  const element = document.createElement(tag);
-  element.innerText = text;
-  return element;
+function createElement('average-task').innerText = averageTask.label;
+
+  const element = document.createElement(Average);
+  average.innerText = averageTask.label;
+  return average;
 
 }
 
