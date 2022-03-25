@@ -22,6 +22,7 @@ function loadContent() {
   loadTable();
   loadShortestTask();
   loadLongestTask();
+  loadAverage();
 }
 
 // Adds a task to the array and reloads the page content.
@@ -100,15 +101,15 @@ function compare(valueOne, valueTwo) {
   return 0;
 }
 
-// Displays the name of the shortest task.
+// Displays the name of the longest task.
 function loadLongestTask(){
-  // Assume the first task is shortest
+  // Assume the first task is longest
   let longestTask = taskArray[0];
 
-  // Starting with the second task, look for a shorter task
+
   for (let i = 1; i < taskArray.length; i++) {
     const task = taskArray[i];
-    // If this task is shorter than the previous shortest, it's now the shortest
+
     if(task.time > longestTask.time) {
       longestTask = task;
     }
@@ -137,3 +138,22 @@ function compare(valueOne, valueTwo) {
   // valueOne and valueTwo are equal
   return 0;
 }
+
+class Avg {
+    constructor() {}
+
+    static average(array) {
+        var total = 0;
+        var count = 0;
+
+        jQuery.each(array, function(index, value) {
+            total += value;
+            count++;
+        });
+
+        return total / count;
+    }
+}
+
+var arry = [160, 330, 575, 1066, 362, 309, 792, 678, 422, 2097];
+console.log(Avg.average(arry));
