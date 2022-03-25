@@ -65,7 +65,7 @@ function loadShortestTask(){
   let shortestTask = taskArray[1];
 
   // Starting with the second task, look for a shorter task
-  for (let i = 0; i < taskArray.length; i++) {
+  for (let i = 1; i < taskArray.length; i++) {
     const task = taskArray[i];
     // If this task is shorter than the previous shortest, it's now the shortest
     if(task.time < shortestTask.time) {
