@@ -8,8 +8,9 @@
 }
 body {
   background-color: lightblue;
-  opacity: 0.3;
+  opacity: 0.1;
 }
 p {
-background-position: center; 
+  background-color: yellow;
+  opacity: 0.3;
 }
