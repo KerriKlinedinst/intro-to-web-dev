@@ -4,7 +4,7 @@
 }
 
 #images img {
-  width: 300px;
+  width: 200px;
 }
 
 h2 {
@@ -13,5 +13,4 @@ h2 {
 
 body {
   background-color: lightgrey;
-  text-align: left;
 }
