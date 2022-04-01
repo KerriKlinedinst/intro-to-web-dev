@@ -6,11 +6,12 @@
 #images img {
   width: 200px;
 }
-body {
+
+h2 {
   background-color: lightblue;
-  opacity: 0.1;
 }
-p {
-  background-color: yellow;
-  opacity: 0.3;
+
+body {
+  text-align: center;
 }
+  
