@@ -6,3 +6,10 @@
 #images img {
   width: 200px;
 }
+body {
+  background-color: lightblue;
+  opacity: 0.3;
+}
+p {
+background-position: center; 
+}
