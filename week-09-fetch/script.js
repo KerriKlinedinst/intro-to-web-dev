@@ -1,6 +1,6 @@
 // Loads content for a Wikipedia article and displays it in the page.
 async function loadContent() {
-  const pageId = 'Bird';
+  const pageId = 'Weasel';
   const response = await fetch(
     'https://en.wikipedia.org/w/api.php?' +
     'action=parse&formatversion=2&format=json&origin=*&page='
