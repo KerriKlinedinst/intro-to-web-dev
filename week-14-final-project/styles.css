@@ -2,3 +2,8 @@ p {
   font-size: large;
   font-style: oblique;
 }
+
+body
+{
+  background-color: #f3eeed;
+}
